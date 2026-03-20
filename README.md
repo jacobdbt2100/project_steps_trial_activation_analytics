@@ -10,13 +10,13 @@ cd trial_activation_analytics
 
 3. Initialize dbt inside the cloned repo
 
-```bash
+```PowerShell
 dbt init . # The . tells dbt to create its project files in the current folder (your cloned repo)
 ```
 
 4. Commit initial dbt files to GitHub
 
-```bash
+```PowerShell
 git add .
 git commit -m "Initialize dbt project"
 git push origin main
