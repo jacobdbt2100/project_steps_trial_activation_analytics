@@ -11,7 +11,8 @@ cd trial_activation_analytics
 3. Initialize dbt inside the cloned repo
 
 ```PowerShell
-dbt init . # The . tells dbt to create its project files in the current folder (your cloned repo)
+dbt init . # The . tells dbt to create its project files in the current folder (your cloned repo) instead of creating a new folder.
+           # Useful if you’re already inside an empty folder where you want your project to live.
 ```
 
 4. Commit initial dbt files to GitHub
