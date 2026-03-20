@@ -3,7 +3,7 @@
 1. Create the GitHub public repository. Do not add a README yet if you plan to start entirely locally (to avoid merge conflicts).
 2. Clone locally
 
-```PowerShell
+```bash
 git clone https://github.com/your-username/trial_activation_analytics.git
 cd trial_activation_analytics
 ```
