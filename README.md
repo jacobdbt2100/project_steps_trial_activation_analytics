@@ -1,20 +1,20 @@
 # Project Steps for Trial Activation Analytics
 
-### 1. Create the GitHub public repository. Do not add a README yet if you plan to start entirely locally (to avoid merge conflicts).
-### 2. Clone locally
+1. Create the GitHub public repository. Do not add a README yet if you plan to start entirely locally (to avoid merge conflicts).
+2. Clone locally
 
 ```PowerShell
 git clone https://github.com/your-username/trial_activation_analytics.git
 cd trial_activation_analytics
 ```
 
-### 3. Initialize dbt inside the cloned repo
+3. Initialize dbt inside the cloned repo
 
 ```PowerShell
 dbt init . # The . tells dbt to create its project files in the current folder (your cloned repo)
 ```
 
-### 4. Commit initial dbt files to GitHub
+4. Commit initial dbt files to GitHub
 
 ```PowerShell
 git add .
