@@ -4,7 +4,7 @@
 2. Clone locally
 
 ```PowerShell
-git clone https://github.com/your-username/trial_activation_analytics.git
+git clone https://github.com/jacobdbt2100/trial_activation_analytics.git
 cd trial_activation_analytics
 ```
 
